@@ -57,8 +57,8 @@ a {
     border: 0.5px dotted grey;
     padding-left: 30px;
     padding-bottom: 30px;
-	margin-left: auto;
-	margin-right: auto;
+	  margin-left: auto;
+	  margin-right: auto;
     margin-top: 30px;
     margin-bottom: 15px;
     width: 60%;
@@ -82,9 +82,9 @@ a {
 }
 
 .blog:hover #hover-content {
-    text-align: right;
-    padding-right: -30px;
-    padding-top: 219px;
+    bottom: 30px;
+    right: 50px;
+    position: fixed;
     display: block;
 }
 
