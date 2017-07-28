@@ -1,0 +1,96 @@
+body {
+	font-family: helvetica;
+	font-size: 12px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/*********** menu ***********/
+
+.main_title {
+	position: fixed;
+	margin-top:0px;
+	margin-left:30px;
+}
+
+.how a p.new-label span{
+  position: relative;
+  content: 'NEW'
+}
+.how:hover a p.new-label span{
+  display: none;
+}
+.how:hover a p.new-label:after{
+  content: 'to find something, just command-f';
+}
+
+.me a p.new-label span{
+  position: relative;
+  content: 'NEW'
+}
+.me:hover a p.new-label span{
+  display: none;
+}
+.me:hover a p.new-label:after{
+  content: 'xinyiw@andrew.cmu.edu';
+}
+
+.more a p.new-label span{
+  position: relative;
+  content: 'NEW'
+}
+.more:hover a p.new-label span{
+  display: none;
+}
+.more:hover a p.new-label:after{
+  content: 'http://rejoyce.life';
+}
+
+/*********** blog ***********/
+
+
+.blog {
+	position: relative;
+    border: 0.5px dotted grey;
+    padding-left: 30px;
+    padding-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    width: 60%;
+    height: 200px;
+    padding-top: 30%;
+}
+
+.blog .item {
+	position:absolute;
+	top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+
+/************ date **********/
+
+#hover-content {
+    display:none;
+}
+
+.blog:hover #hover-content {
+    text-align: right;
+    padding-right: -30px;
+    padding-top: 219px;
+    display: block;
+}
+
+
+
+
+
+
+
