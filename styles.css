@@ -24,7 +24,7 @@ a {
   display: none;
 }
 .how:hover a p.new-label:after{
-  content: 'to find something, just con-f';
+  content: 'to find sth, just co-f';
 }
 
 .me a p.new-label span{
